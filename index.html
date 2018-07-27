@@ -3,28 +3,48 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>About Me</title>
+    <title>My Portfolio Portal</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style1.css"/>
 </head>
-<body>
-    <header>
-        <a href="/about.html">About</a>
-        <a href="/profile.html">Profile</a>
-        <a href="/contact.html">Contact</a>
-    </header>
-
-<!-- Remember to potentially float this div below, but will need to be styled and located in CSS-->
-    <div>
-        Chris Grant
+<body class="body">
+<!-- Begin Nav Bar and Floater-->
+    <div class="nav_container">    
+        <div id="left">
+            Chris Grant
+        </div>
+        <div>
+        <ul class="ul">
+            <li class="li"><a href="#">Contact</a></li>
+            <li class="li"><a href="#">Portfolio</a></li>
+            <li class="l1"><a href="#">About</a></li>
+        </ul>
+        </div>
     </div>
+<!-- End Nav Bar and Floater-->
 
-        <section>
-            About Me<br>
-            <hr>
-                <p>"Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-        </section>
+<!-- Begin Body Section-->
+    <div id="main_container">
+        <h6 id="aboutme">About Me</h6><br>
 
-    <footer>Copyright</footer>
+        <div id="bio_image">
+            <img src="./assets/images/bio.jpg" width="150" height="150">
+        </div>
+
+        <div id="body_copy">
+            <p>My name is Chris Grant and I'm currently a Director of Project Management in the exhibit and tradeshow industry. I've spent the better part of 11 years in this environment and I'm excited to learn a new suite of skills that can improve the lives of my team members and clients by using data to create useful visualizations.
+            When I'm not working, my wife and I can be found traveling as far away as possible every chance that we can afford. We have a huge passion and love for Asia.<br>
+
+            Also dinner time. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores non alias eius eos labore voluptate blanditiis. Et asperiores nulla reiciendis, voluptate odit facere. Recusandae voluptatem temporibus unde, sit illum soluta.<br>
+
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempore consectetur minus porro magnam labore officiis quis eos velit exercitationem. Mollitia fugit molestias impedit voluptatum praesentium a autem officiis tempora nam?
+            </p>
+        </div>
+    </div>
+<!-- End Body Section-->
+
+    <footer class="footer">
+        <p id="wtf">Copyright &copy;</p>
+    </footer>
 </body>
 </html>
