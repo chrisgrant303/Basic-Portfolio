@@ -108,6 +108,7 @@ li a {
 }
 /*........ End About Me .........*/
 
+
 /* Contact Elements Below This Line*/
 
 input[type=text] {
@@ -142,4 +143,48 @@ input[type=button], input[type=submit], input[type=reset] {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
     margin-left: 40px;
+}
+
+/*..........End Contact Elements ........ */
+
+/* Begin Portfolio Elements Below This Line */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+    margin-left: 32px;
+  }
+  
+  /* Create two equal columns that sits next to each other */
+  .column {
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    vertical-align: middle;
+  }
+
+  /* Container holding the image and the text */
+.container {
+    position: relative;
+    flex: wrap;
+    flex-wrap: wrap;
+}
+
+/* Bottom right text */
+.text-block {
+    position: relative;
+    bottom: 85px;
+    width: 275px;
+    height: 50px;
+    background-color:#4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    float: bottom;
+    line-height: 50px;
 }
