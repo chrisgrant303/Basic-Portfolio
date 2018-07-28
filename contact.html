@@ -1,39 +1,66 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Get In Touch</title>
+    <title>My Portfolio Portal | Contact Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="/assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style1.css" />
 </head>
-<body>
-    <header>
-        About | Profile | Contact
-    </header>
 
-<!-- Remember to potentially float this div below, but will need to be styled and located in CSS-->
-    <div>
-        Chris Grant
+<body class="body">
+    <!-- Begin Nav Bar and Floater-->
+    <div class="nav_container">
+        <div id="left">
+            Chris Grant
+        </div>
+        <div>
+            <ul class="ul">
+                <li class="li">
+                    <a href="#">Contact</a>
+                </li>
+                <li class="li">
+                    <a href="#">Portfolio</a>
+                </li>
+                <li class="l1">
+                    <a href="#">About</a>
+                </li>
+            </ul>
+        </div>
     </div>
+    <!-- End Nav Bar and Floater-->
 
-        <section>
-            Contact<br>
-            <hr>
-            <form>
-                Name<br>
-                <input type="text"><br>
-                Email<br>
-                <input type="text"><br>
-                <!-- This will need a larger defined text field -->
-                Message<br>
-                <input type="text"><br><br><br>
-                <!-- This will need a submit button that follows the format of the site, include padding and more breaks if needed -->
-                <input type="submit" value="Submit">
-            </form>
-                
-        </section>
+    <!-- Begin Body Section-->
+    <div id="main_container">
+        <h6 id="aboutme">Contact</h6>
+        <br>
+        <form>
+            <div id="input_header">
+                Name
+            </div>
+            <input type="text" name="Name" value="John Smith" class="input">
+            <br>
+            <div id="input_header">
+                Email
+            </div>
+            <input type="text" name="Email" value="example@gmail.com">
+            <br>
+            <div id="input_header">
+                Message
+            </div>
+            <textarea name="text" rows="14" cols="10" wrap="soft" id="textarea"></textarea>
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <!-- End Body Section-->
 
-    <footer>Copyright</footer>
+    <!-- Begin Footer Section-->
+    <footer class="footer">
+        <p id="copyright">Copyright &copy;</p>
+    </footer>
+    <!-- End Footer Section-->
 </body>
+
 </html>

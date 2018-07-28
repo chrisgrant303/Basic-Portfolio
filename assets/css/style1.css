@@ -21,10 +21,10 @@
     height: 40px;
     width: 100%;
     margin-top: 75px;
+    bottom: 0;
 }
 
 #copyright {
-    float: center;
     font-size: 0.7em;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
@@ -89,6 +89,7 @@ li a {
     background-color: #ffffff;
     border: #dddddd 1px solid;
     margin-left: 196px;
+    margin-bottom: 200px;
 }
 
 #body_copy {
@@ -108,3 +109,37 @@ li a {
 /*........ End About Me .........*/
 
 /* Contact Elements Below This Line*/
+
+input[type=text] {
+    width: 880px;
+    padding: 6px 14px;
+    margin: 8px -40px 8px 40px; 
+    box-sizing: border-box;
+    color: #777777;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 16px 64px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px 2px 40px 40px;;
+    cursor: pointer;
+}
+
+#textarea {
+    width: 880px;
+    padding: 6px 14px;
+    margin: 8px -40px 8px 40px; 
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#input_header {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+    margin-left: 40px;
+}
