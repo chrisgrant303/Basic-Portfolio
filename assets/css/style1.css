@@ -148,6 +148,9 @@ input[type=button], input[type=submit], input[type=reset] {
 /*..........End Contact Elements ........ */
 
 /* Begin Portfolio Elements Below This Line */
+
+.clear {clear: after;}
+
 .row {
     display: flex;
     flex-wrap: wrap;
